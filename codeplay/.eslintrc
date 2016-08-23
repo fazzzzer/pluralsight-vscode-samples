@@ -21,7 +21,7 @@
     "eqeqeq": 2,
     "guard-for-in": 2,
     "no-extend-native": 2,
-    "wrap-iife": 2,
+    "wrap-iife": 0,
     "indent": [
       2,
       4,
@@ -79,7 +79,7 @@
     "linebreak-style": 0,
     "comma-style": [
       2,
-      "first"
+      "last"
     ],
     "no-loop-func": 2,
     "no-multi-str": 2,

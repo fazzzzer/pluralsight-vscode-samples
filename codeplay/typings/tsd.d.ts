@@ -13,3 +13,4 @@
 /// <reference path="moment/moment.d.ts" />
 /// <reference path="sinon/sinon.d.ts" />
 /// <reference path="toastr/toastr.d.ts" />
+/// <reference path="assertion-error/assertion-error.d.ts" />
