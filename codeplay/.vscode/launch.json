@@ -3,14 +3,14 @@
 	// List of configurations. Add new configurations or edit existing ones.
 	// ONLY "node" and "mono" are supported, change "type" to switch.
 	"configurations": [
-		// {
-		// 	"name": "node gulp debugger",
-		// 	"type": "node",
-		// 	"program": "./node_modules/gulp/bin/gulp.js",
-		// 	"stopOnEntry": true,
-		// 	"args": ["vet"],
-		// 	"runtimeArgs": ["--nolazy"]
-		// },
+		{
+			"name": "node gulp debugger",
+			"type": "node",
+			"program": "${workspaceRoot}\\node_modules\\gulp\\bin\\gulp.js",
+			"stopOnEntry": true,
+			"args": ["vet"], // gulp task name
+			"runtimeArgs": ["--nolazy"]
+		},
 		{
 			// Name of configuration; appears in the launch configuration drop down menu.
 			"name": "Launch src/server/app.js",
