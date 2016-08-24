@@ -8,7 +8,7 @@ let car = new Car({
 
 let truck = new Truck({
 	price: 40000, make: 'Ford', model: 'F150',
-	year: 2014, is4by4: true
+	year: 2015, is4by4: true
 });
 
 var output = document.getElementById('output');
